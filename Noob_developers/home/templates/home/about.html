@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block aboutactive %} active {% endblock aboutactive %}
+{% block title %} About{% endblock title %}
+
+{% block body %}
+    {% load static %}
+
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center ">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading">it's a Perfect place for making document with professional Guidance.<span
+                        class="text-muted"></span></h2>
+                <p class="lead">At Doc Maker, we’re cracking the code for writing perfect resumes,CV and cover letters.
+                    Plus, we’re giving you state-of-the art software to create beautiful, professional job application
+                    documents.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src='{% static "/images/15.jpg" %}' alt="">
+
+
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center ">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">It's all started with Just an idea of helping others. <span
+                        class="text-muted">It’ll blow your mind.</span></h2>
+                <p class="lead">As there are Many resume maker websites but most of them are paid so , as a student we
+                    understand this problem and just try to help needy by making a website for then . Which makes every
+                    document with professioanl touch and by completely free.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src='{% static "/images/16.jpg" %}' alt="">
+
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center ">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading">We started Doc Maker in 2021. <span class="text-muted"></span></h2>
+                <p class="lead">We Made it by using various softwares like HTML , CSS , Bootstrap ,Django , Popper etc.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src='{% static "/images/17.jpg" %}' alt="">
+
+            </div>
+        </div>
+    </div>
+ {% endblock %}
